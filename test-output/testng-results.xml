@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The title of page is Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[The title of page is Log in to Facebook]]>
+    </line>
+    <line>
+      <![CDATA[The title of page is Log in to Facebook]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-03T13:10:23 IST" name="Default suite" finished-at="2022-05-03T13:10:35 IST" duration-ms="12534">
+    <groups>
+    </groups>
+    <test started-at="2022-05-03T13:10:23 IST" name="Default test" finished-at="2022-05-03T13:10:35 IST" duration-ms="12534">
+      <class name="org.facebook.loginpage.FacebooksigninTest">
+        <test-method is-config="true" signature="initialFlow()[pri:0, instance:org.facebook.loginpage.FacebooksigninTest@57d7f8ca]" started-at="2022-05-03T13:10:23 IST" name="initialFlow" finished-at="2022-05-03T13:10:26 IST" duration-ms="3763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialFlow -->
+        <test-method signature="Facebooklogin1(java.lang.String, java.lang.String)[pri:0, instance:org.facebook.loginpage.FacebooksigninTest@57d7f8ca]" started-at="2022-05-03T13:10:26 IST" name="Facebooklogin1" data-provider="datakey" finished-at="2022-05-03T13:10:29 IST" duration-ms="2846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayank.start@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The title of page is Facebook – log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Facebooklogin1 -->
+        <test-method signature="Facebooklogin1(java.lang.String, java.lang.String)[pri:0, instance:org.facebook.loginpage.FacebooksigninTest@57d7f8ca]" started-at="2022-05-03T13:10:29 IST" name="Facebooklogin1" data-provider="datakey" finished-at="2022-05-03T13:10:30 IST" duration-ms="1261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mayank.started@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paasword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The title of page is Log in to Facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Facebooklogin1 -->
+        <test-method signature="faceBooklogin()[pri:0, instance:org.facebook.loginpage.FacebooksigninTest@57d7f8ca]" started-at="2022-05-03T13:10:30 IST" name="faceBooklogin" finished-at="2022-05-03T13:10:34 IST" duration-ms="3924" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The title of page is Log in to Facebook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- faceBooklogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.facebook.loginpage.FacebooksigninTest@57d7f8ca]" started-at="2022-05-03T13:10:34 IST" name="closeBrowser" finished-at="2022-05-03T13:10:35 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.facebook.loginpage.FacebooksigninTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
